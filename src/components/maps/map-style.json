@@ -1,0 +1,28 @@
+{
+    "version": 8,
+    "name": "OSM",
+    "metadata": {
+      
+    },
+    "sources": {
+
+      "osm": {
+        "type": "raster",
+        "tiles": [
+          "http://tile.openstreetmap.org/{z}/{x}/{y}.png"
+        ],
+        "minzoom": 0,
+        "maxzoom": 20
+      }
+
+    },
+
+    "layers": [
+      {
+        "id": "osm",
+        "type": "raster",
+        "source": "osm"
+      }
+    ],
+    "id": "klokantech-basic"
+  }
